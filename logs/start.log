@@ -1,0 +1,342 @@
+20 дек. 2023 19:13:33,986  INFO StartLogger - Server is starting...
+20 дек. 2023 19:13:36,314  INFO StartLogger - Logics instance is starting...
+20 дек. 2023 19:13:36,383  INFO StartLogger - Initializing BusinessLogics
+20 дек. 2023 19:13:36,420  INFO StartLogger - Creating modules
+20 дек. 2023 19:13:36,420  INFO StartLogger - Initializing localizer
+20 дек. 2023 19:13:36,420  INFO StartLogger - Initializing string literals data
+20 дек. 2023 19:13:37,479  INFO StartLogger - Initializing dependencies
+20 дек. 2023 19:13:37,756  INFO StartLogger - Initializing modules order
+20 дек. 2023 19:13:37,772  INFO StartLogger - Initializing metacodes and classes
+20 дек. 2023 19:13:38,931  INFO StartLogger - Initializing object class
+20 дек. 2023 19:13:38,943  INFO StartLogger - Initializing tables
+20 дек. 2023 19:13:39,051  INFO StartLogger - Initializing class tables
+20 дек. 2023 19:13:39,303  INFO StartLogger - Initializing full tables with one key
+20 дек. 2023 19:13:39,305  INFO StartLogger - Initializing main logic
+20 дек. 2023 19:13:39,327  INFO StartLogger - Initializing main logic for module : #1 of 46 System (actual: 1)
+20 дек. 2023 19:13:40,636  INFO StartLogger - Initializing main logic for module : #2 of 46 Integration (actual: 25)
+20 дек. 2023 19:13:40,636  INFO StartLogger - Initializing main logic for module : #4 of 46 DefaultData (actual: 13)
+20 дек. 2023 19:13:40,637  INFO StartLogger - Initializing main logic for module : #5 of 46 Time (actual: 2)
+20 дек. 2023 19:13:40,636  INFO StartLogger - Initializing main logic for module : #3 of 46 Printer (actual: 15)
+20 дек. 2023 19:13:40,646  INFO StartLogger - Initializing main logic for module : #6 of 46 MasterData (actual: 7)
+20 дек. 2023 19:13:40,650  INFO StartLogger - Initializing main logic for module : #7 of 46 Image (actual: 16)
+20 дек. 2023 19:13:40,660  INFO StartLogger - Initializing main logic for module : #8 of 46 Numerator (actual: 17)
+20 дек. 2023 19:13:40,669  INFO StartLogger - Initializing main logic for module : #9 of 46 OpenCV (actual: 42)
+20 дек. 2023 19:13:40,675  INFO StartLogger - Initializing main logic for module : #10 of 46 Com (actual: 30)
+20 дек. 2023 19:13:40,679  INFO StartLogger - Initializing main logic for module : #11 of 46 Sound (actual: 34)
+20 дек. 2023 19:13:40,680  INFO StartLogger - Initializing main logic for module : #12 of 46 ProcessUtils (actual: 35)
+20 дек. 2023 19:13:40,681  INFO StartLogger - Initializing main logic for module : #13 of 46 Main (actual: 46)
+20 дек. 2023 19:13:40,822  INFO StartLogger - Initializing main logic for module : #14 of 46 Utils (actual: 3)
+20 дек. 2023 19:13:41,045  INFO StartLogger - Initializing main logic for module : #15 of 46 Hierarchy (actual: 22)
+20 дек. 2023 19:13:41,047  INFO StartLogger - Initializing main logic for module : #16 of 46 Excel (actual: 23)
+20 дек. 2023 19:13:41,088  INFO StartLogger - Initializing main logic for module : #17 of 46 I18n (actual: 29)
+20 дек. 2023 19:13:41,163  INFO StartLogger - Initializing main logic for module : #18 of 46 Schedule (actual: 43)
+20 дек. 2023 19:13:41,170  INFO StartLogger - Initializing main logic for module : #19 of 46 Authentication (actual: 4)
+20 дек. 2023 19:13:41,605  INFO StartLogger - Initializing main logic for module : #20 of 46 Historizable (actual: 21)
+20 дек. 2023 19:13:41,605  INFO StartLogger - Initializing main logic for module : #22 of 46 Reflection (actual: 5)
+20 дек. 2023 19:13:41,605  INFO StartLogger - Initializing main logic for module : #21 of 46 ProcessMonitor (actual: 19)
+20 дек. 2023 19:13:41,605  INFO StartLogger - Initializing main logic for module : #23 of 46 Document (actual: 18)
+20 дек. 2023 19:13:41,885  INFO StartLogger - Initializing main logic for module : #24 of 46 SystemEvents (actual: 6)
+20 дек. 2023 19:13:41,892  INFO StartLogger - Initializing main logic for module : #25 of 46 Icon (actual: 44)
+20 дек. 2023 19:13:41,901  INFO StartLogger - Initializing main logic for module : #26 of 46 Messenger (actual: 32)
+20 дек. 2023 19:13:41,935  INFO StartLogger - WARNING! Now default change event action will work in new session /utils/messengers/Messenger.lsf(77:30) property:Messenger.synchronizeChatsAction[Messenger.Account] 'Синхронизировать аккаунт' [Messenger(65:70)]
+20 дек. 2023 19:13:41,957  INFO StartLogger - Initializing main logic for module : #27 of 46 Viber (actual: 38)
+20 дек. 2023 19:13:41,959  INFO StartLogger - Initializing main logic for module : #28 of 46 Slack (actual: 41)
+20 дек. 2023 19:13:41,959  INFO StartLogger - Initializing main logic for module : #29 of 46 Telegram (actual: 33)
+20 дек. 2023 19:13:42,183  INFO StartLogger - Initializing main logic for module : #30 of 46 Skype (actual: 39)
+20 дек. 2023 19:13:42,269  INFO StartLogger - Initializing main logic for module : #31 of 46 Chart (actual: 28)
+20 дек. 2023 19:13:42,272  INFO StartLogger - Initializing main logic for module : #32 of 46 Word (actual: 8)
+20 дек. 2023 19:13:42,273  INFO StartLogger - Initializing main logic for module : #33 of 46 Geo (actual: 37)
+20 дек. 2023 19:13:42,274  INFO StartLogger - Initializing main logic for module : #34 of 46 FrappeGantt (actual: 45)
+20 дек. 2023 19:13:42,275  INFO StartLogger - Initializing main logic for module : #35 of 46 Email (actual: 9)
+20 дек. 2023 19:13:42,279  INFO StartLogger - Initializing main logic for module : #36 of 46 RabbitMQ (actual: 36)
+20 дек. 2023 19:13:42,305  INFO StartLogger - Initializing main logic for module : #37 of 46 MultiSelect (actual: 31)
+20 дек. 2023 19:13:42,307  INFO StartLogger - Initializing main logic for module : #38 of 46 JKanban (actual: 40)
+20 дек. 2023 19:13:42,374  INFO StartLogger - Initializing main logic for module : #39 of 46 Security (actual: 10)
+20 дек. 2023 19:13:42,742  INFO StartLogger - Initializing main logic for module : #40 of 46 Service (actual: 11)
+20 дек. 2023 19:13:42,930  INFO StartLogger - Initializing main logic for module : #41 of 46 SQLUtils (actual: 20)
+20 дек. 2023 19:13:42,930  INFO StartLogger - Initializing main logic for module : #42 of 46 Chat (actual: 26)
+20 дек. 2023 19:13:42,931  INFO StartLogger - Initializing main logic for module : #43 of 46 Profiler (actual: 24)
+20 дек. 2023 19:13:42,933  INFO StartLogger - Initializing main logic for module : #44 of 46 Scheduler (actual: 12)
+20 дек. 2023 19:13:43,029  INFO StartLogger - Initializing main logic for module : #45 of 46 Eval (actual: 27)
+20 дек. 2023 19:13:43,135  INFO StartLogger - Initializing main logic for module : #46 of 46 Backup (actual: 14)
+20 дек. 2023 19:13:43,259  INFO StartLogger - Checking for duplicate elements
+20 дек. 2023 19:13:43,259  INFO StartLogger - Finalizing groups
+20 дек. 2023 19:13:43,262  INFO StartLogger - Finalizing classes
+20 дек. 2023 19:13:43,293  INFO StartLogger - Filling implicit cases
+20 дек. 2023 19:13:43,293  INFO StartLogger - Initializing lazy properties
+20 дек. 2023 19:13:43,293  INFO StartLogger - Initializing abstract properties
+20 дек. 2023 19:13:43,295  INFO StartLogger - Finalizing abstract actions
+20 дек. 2023 19:13:43,421  INFO StartLogger - Initializing class aggr props
+20 дек. 2023 19:13:43,421  INFO StartLogger - Checking abstract
+20 дек. 2023 19:13:43,426  INFO StartLogger - Initializing fields for data and materialized properties
+20 дек. 2023 19:13:43,433  INFO StartLogger - Looking for recursions in abstract actions / properties
+20 дек. 2023 19:13:43,550  INFO StartLogger - Finalizing navigator elements
+20 дек. 2023 19:13:43,556  INFO StartLogger - Setup property policy
+20 дек. 2023 19:13:43,557  INFO StartLogger - Setup drill-down
+20 дек. 2023 19:13:43,562  INFO StartLogger - Setup reset files
+20 дек. 2023 19:13:43,586  INFO StartLogger - Initializing indices
+20 дек. 2023 19:13:43,596  INFO StartLogger - Finalizing tables
+20 дек. 2023 19:13:43,711  INFO StartLogger - Initializing reflection events
+20 дек. 2023 19:13:43,720  INFO StartLogger - Setup action policy
+20 дек. 2023 19:13:44,584 ERROR StartLogger - ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) (host: localhost, user: postgres)
+20 дек. 2023 19:13:44,597 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:234)
+	at lsfusion.server.physics.admin.reflection.controller.init.InitReflectionEventsTask.run(InitReflectionEventsTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:475)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:554)
+Caused by: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:520)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.getConnection(PostgreDataAdapter.java:75)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.ensureDB(PostgreDataAdapter.java:92)
+	at lsfusion.server.data.sql.adapter.DataAdapter.ensure(DataAdapter.java:68)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.lambda$4(DBManager.java:215)
+	at lsfusion.server.physics.exec.db.table.ImplementTable.reflectionStatProps(ImplementTable.java:509)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:212)
+	... 8 more
+20 дек. 2023 19:13:44,602  INFO StartLogger - Error starting server, server will be stopped.
+20 дек. 2023 19:13:44,603  INFO StartLogger - Server is stopping...
+20 дек. 2023 19:13:44,603  INFO StartLogger - Logics instance is stopping...
+20 дек. 2023 19:13:44,603  INFO StartLogger - Logics instance has stopped...
+20 дек. 2023 19:13:44,608  INFO StartLogger - Server has stopped...
+20 дек. 2023 21:13:29,872  INFO StartLogger - Server is starting...
+20 дек. 2023 21:13:32,068  INFO StartLogger - Logics instance is starting...
+20 дек. 2023 21:13:32,145  INFO StartLogger - Initializing BusinessLogics
+20 дек. 2023 21:13:32,186  INFO StartLogger - Creating modules
+20 дек. 2023 21:13:32,187  INFO StartLogger - Initializing string literals data
+20 дек. 2023 21:13:32,187  INFO StartLogger - Initializing localizer
+20 дек. 2023 21:13:33,236  INFO StartLogger - Initializing dependencies
+20 дек. 2023 21:13:33,576  INFO StartLogger - Initializing modules order
+20 дек. 2023 21:13:33,593  INFO StartLogger - Initializing metacodes and classes
+20 дек. 2023 21:13:34,981  INFO StartLogger - Initializing object class
+20 дек. 2023 21:13:34,987  INFO StartLogger - Initializing tables
+20 дек. 2023 21:13:35,128  INFO StartLogger - Initializing class tables
+20 дек. 2023 21:13:35,335  INFO StartLogger - Initializing full tables with one key
+20 дек. 2023 21:13:35,336  INFO StartLogger - Initializing main logic
+20 дек. 2023 21:13:35,365  INFO StartLogger - Initializing main logic for module : #1 of 46 System (actual: 1)
+20 дек. 2023 21:13:37,104  INFO StartLogger - Initializing main logic for module : #2 of 46 Sound (actual: 35)
+20 дек. 2023 21:13:37,105  INFO StartLogger - Initializing main logic for module : #4 of 46 Image (actual: 17)
+20 дек. 2023 21:13:37,105  INFO StartLogger - Initializing main logic for module : #5 of 46 Time (actual: 2)
+20 дек. 2023 21:13:37,105  INFO StartLogger - Initializing main logic for module : #3 of 46 ProcessUtils (actual: 36)
+20 дек. 2023 21:13:37,106  INFO StartLogger - Initializing main logic for module : #6 of 46 Printer (actual: 16)
+20 дек. 2023 21:13:37,108  INFO StartLogger - Initializing main logic for module : #7 of 46 MasterData (actual: 7)
+20 дек. 2023 21:13:37,113  INFO StartLogger - Initializing main logic for module : #8 of 46 DefaultData (actual: 13)
+20 дек. 2023 21:13:37,127  INFO StartLogger - Initializing main logic for module : #9 of 46 Numerator (actual: 18)
+20 дек. 2023 21:13:37,127  INFO StartLogger - Initializing main logic for module : #10 of 46 Integration (actual: 26)
+20 дек. 2023 21:13:37,138  INFO StartLogger - Initializing main logic for module : #11 of 46 OpenCV (actual: 43)
+20 дек. 2023 21:13:37,143  INFO StartLogger - Initializing main logic for module : #12 of 46 Com (actual: 31)
+20 дек. 2023 21:13:37,355  INFO StartLogger - Initializing main logic for module : #13 of 46 Utils (actual: 3)
+20 дек. 2023 21:13:37,510  INFO StartLogger - Initializing main logic for module : #14 of 46 Excel (actual: 24)
+20 дек. 2023 21:13:37,510  INFO StartLogger - Initializing main logic for module : #15 of 46 I18n (actual: 30)
+20 дек. 2023 21:13:37,511  INFO StartLogger - Initializing main logic for module : #16 of 46 Authentication (actual: 4)
+20 дек. 2023 21:13:37,511  INFO StartLogger - Initializing main logic for module : #17 of 46 Schedule (actual: 44)
+20 дек. 2023 21:13:37,611  INFO StartLogger - Initializing main logic for module : #18 of 46 HockeyStats (actual: 15)
+20 дек. 2023 21:13:37,634  INFO StartLogger - Initializing main logic for module : #19 of 46 Hierarchy (actual: 23)
+20 дек. 2023 21:13:37,975  INFO StartLogger - Initializing main logic for module : #20 of 46 ProcessMonitor (actual: 20)
+20 дек. 2023 21:13:37,975  INFO StartLogger - Initializing main logic for module : #21 of 46 Reflection (actual: 5)
+20 дек. 2023 21:13:37,977  INFO StartLogger - Initializing main logic for module : #22 of 46 Historizable (actual: 22)
+20 дек. 2023 21:13:37,979  INFO StartLogger - Initializing main logic for module : #23 of 46 Document (actual: 19)
+20 дек. 2023 21:13:38,273  INFO StartLogger - Initializing main logic for module : #24 of 46 Messenger (actual: 33)
+20 дек. 2023 21:13:38,273  INFO StartLogger - Initializing main logic for module : #26 of 46 Icon (actual: 45)
+20 дек. 2023 21:13:38,273  INFO StartLogger - Initializing main logic for module : #25 of 46 SystemEvents (actual: 6)
+20 дек. 2023 21:13:38,293  INFO StartLogger - WARNING! Now default change event action will work in new session /utils/messengers/Messenger.lsf(77:30) property:Messenger.synchronizeChatsAction[Messenger.Account] 'Синхронизировать аккаунт' [Messenger(65:70)]
+20 дек. 2023 21:13:38,305  INFO StartLogger - Initializing main logic for module : #27 of 46 Telegram (actual: 34)
+20 дек. 2023 21:13:38,305  INFO StartLogger - Initializing main logic for module : #28 of 46 Skype (actual: 40)
+20 дек. 2023 21:13:38,309  INFO StartLogger - Initializing main logic for module : #29 of 46 Slack (actual: 42)
+20 дек. 2023 21:13:38,415  INFO StartLogger - Initializing main logic for module : #30 of 46 Viber (actual: 39)
+20 дек. 2023 21:13:38,514  INFO StartLogger - Initializing main logic for module : #31 of 46 Email (actual: 9)
+20 дек. 2023 21:13:38,525  INFO StartLogger - Initializing main logic for module : #32 of 46 Word (actual: 8)
+20 дек. 2023 21:13:38,530  INFO StartLogger - Initializing main logic for module : #33 of 46 Geo (actual: 38)
+20 дек. 2023 21:13:38,530  INFO StartLogger - Initializing main logic for module : #34 of 46 RabbitMQ (actual: 37)
+20 дек. 2023 21:13:38,611  INFO StartLogger - Initializing main logic for module : #35 of 46 MultiSelect (actual: 32)
+20 дек. 2023 21:13:38,622  INFO StartLogger - Initializing main logic for module : #36 of 46 FrappeGantt (actual: 46)
+20 дек. 2023 21:13:38,624  INFO StartLogger - Initializing main logic for module : #37 of 46 JKanban (actual: 41)
+20 дек. 2023 21:13:38,679  INFO StartLogger - Initializing main logic for module : #38 of 46 Chart (actual: 29)
+20 дек. 2023 21:13:38,718  INFO StartLogger - Initializing main logic for module : #39 of 46 Security (actual: 10)
+20 дек. 2023 21:13:38,995  INFO StartLogger - Initializing main logic for module : #40 of 46 Service (actual: 11)
+20 дек. 2023 21:13:39,168  INFO StartLogger - Initializing main logic for module : #41 of 46 Profiler (actual: 25)
+20 дек. 2023 21:13:39,171  INFO StartLogger - Initializing main logic for module : #42 of 46 Chat (actual: 27)
+20 дек. 2023 21:13:39,174  INFO StartLogger - Initializing main logic for module : #43 of 46 Scheduler (actual: 12)
+20 дек. 2023 21:13:39,179  INFO StartLogger - Initializing main logic for module : #44 of 46 Eval (actual: 28)
+20 дек. 2023 21:13:39,377  INFO StartLogger - Initializing main logic for module : #45 of 46 SQLUtils (actual: 21)
+20 дек. 2023 21:13:39,496  INFO StartLogger - Initializing main logic for module : #46 of 46 Backup (actual: 14)
+20 дек. 2023 21:13:39,572  INFO StartLogger - Checking for duplicate elements
+20 дек. 2023 21:13:39,572  INFO StartLogger - Finalizing groups
+20 дек. 2023 21:13:39,572  INFO StartLogger - Finalizing classes
+20 дек. 2023 21:13:39,640  INFO StartLogger - Initializing lazy properties
+20 дек. 2023 21:13:39,640  INFO StartLogger - Filling implicit cases
+20 дек. 2023 21:13:39,640  INFO StartLogger - Initializing abstract properties
+20 дек. 2023 21:13:39,641  INFO StartLogger - Finalizing abstract actions
+20 дек. 2023 21:13:39,769  INFO StartLogger - Initializing fields for data and materialized properties
+20 дек. 2023 21:13:39,770  INFO StartLogger - Checking abstract
+20 дек. 2023 21:13:39,771  INFO StartLogger - Initializing class aggr props
+20 дек. 2023 21:13:39,780  INFO StartLogger - Looking for recursions in abstract actions / properties
+20 дек. 2023 21:13:39,833  INFO StartLogger - Setup property policy
+20 дек. 2023 21:13:39,834  INFO StartLogger - Setup drill-down
+20 дек. 2023 21:13:39,834  INFO StartLogger - Finalizing navigator elements
+20 дек. 2023 21:13:39,837  INFO StartLogger - Setup reset files
+20 дек. 2023 21:13:39,843  INFO StartLogger - Initializing indices
+20 дек. 2023 21:13:39,843  INFO StartLogger - Finalizing tables
+20 дек. 2023 21:13:39,863  INFO StartLogger - Initializing reflection events
+20 дек. 2023 21:13:40,119  INFO StartLogger - Setup action policy
+20 дек. 2023 21:13:40,896 ERROR StartLogger - ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) (host: localhost, user: postgres)
+20 дек. 2023 21:13:40,907 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:234)
+	at lsfusion.server.physics.admin.reflection.controller.init.InitReflectionEventsTask.run(InitReflectionEventsTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:475)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:554)
+Caused by: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:520)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.getConnection(PostgreDataAdapter.java:75)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.ensureDB(PostgreDataAdapter.java:92)
+	at lsfusion.server.data.sql.adapter.DataAdapter.ensure(DataAdapter.java:68)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.lambda$4(DBManager.java:215)
+	at lsfusion.server.physics.exec.db.table.ImplementTable.reflectionStatProps(ImplementTable.java:509)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:212)
+	... 8 more
+20 дек. 2023 21:13:40,911  INFO StartLogger - Error starting server, server will be stopped.
+20 дек. 2023 21:13:40,911  INFO StartLogger - Server is stopping...
+20 дек. 2023 21:13:40,911  INFO StartLogger - Logics instance is stopping...
+20 дек. 2023 21:13:40,912  INFO StartLogger - Logics instance has stopped...
+20 дек. 2023 21:13:40,914  INFO StartLogger - Server has stopped...
+20 дек. 2023 21:17:05,421  INFO StartLogger - Server is starting...
+20 дек. 2023 21:17:07,440  INFO StartLogger - Logics instance is starting...
+20 дек. 2023 21:17:07,508  INFO StartLogger - Initializing BusinessLogics
+20 дек. 2023 21:17:07,553  INFO StartLogger - Creating modules
+20 дек. 2023 21:17:07,555  INFO StartLogger - Initializing string literals data
+20 дек. 2023 21:17:07,554  INFO StartLogger - Initializing localizer
+20 дек. 2023 21:17:08,612  INFO StartLogger - Initializing dependencies
+20 дек. 2023 21:17:08,896  INFO StartLogger - Initializing modules order
+20 дек. 2023 21:17:08,899  INFO StartLogger - Initializing metacodes and classes
+20 дек. 2023 21:17:09,945  INFO StartLogger - Initializing object class
+20 дек. 2023 21:17:09,951  INFO StartLogger - Initializing tables
+20 дек. 2023 21:17:10,084  INFO StartLogger - Initializing class tables
+20 дек. 2023 21:17:10,285  INFO StartLogger - Initializing full tables with one key
+20 дек. 2023 21:17:10,287  INFO StartLogger - Initializing main logic
+20 дек. 2023 21:17:10,321  INFO StartLogger - Initializing main logic for module : #1 of 46 System (actual: 1)
+20 дек. 2023 21:17:11,721  INFO StartLogger - Initializing main logic for module : #2 of 46 Time (actual: 2)
+20 дек. 2023 21:17:11,721  INFO StartLogger - Initializing main logic for module : #3 of 46 MasterData (actual: 7)
+20 дек. 2023 21:17:11,725  INFO StartLogger - Initializing main logic for module : #4 of 46 ProcessUtils (actual: 36)
+20 дек. 2023 21:17:11,727  INFO StartLogger - Initializing main logic for module : #5 of 46 Printer (actual: 16)
+20 дек. 2023 21:17:11,727  INFO StartLogger - Initializing main logic for module : #6 of 46 Image (actual: 17)
+20 дек. 2023 21:17:11,729  INFO StartLogger - Initializing main logic for module : #7 of 46 DefaultData (actual: 13)
+20 дек. 2023 21:17:11,739  INFO StartLogger - Initializing main logic for module : #8 of 46 Numerator (actual: 18)
+20 дек. 2023 21:17:11,753  INFO StartLogger - Initializing main logic for module : #9 of 46 Integration (actual: 26)
+20 дек. 2023 21:17:11,762  INFO StartLogger - Initializing main logic for module : #10 of 46 OpenCV (actual: 43)
+20 дек. 2023 21:17:11,764  INFO StartLogger - Initializing main logic for module : #11 of 46 Com (actual: 31)
+20 дек. 2023 21:17:11,771  INFO StartLogger - Initializing main logic for module : #12 of 46 Sound (actual: 35)
+20 дек. 2023 21:17:12,082  INFO StartLogger - Initializing main logic for module : #13 of 46 Utils (actual: 3)
+20 дек. 2023 21:17:12,205  INFO StartLogger - Initializing main logic for module : #14 of 46 I18n (actual: 30)
+20 дек. 2023 21:17:12,206  INFO StartLogger - Initializing main logic for module : #15 of 46 Hierarchy (actual: 23)
+20 дек. 2023 21:17:12,206  INFO StartLogger - Initializing main logic for module : #16 of 46 HockeyStats (actual: 15)
+20 дек. 2023 21:17:12,209  INFO StartLogger - Initializing main logic for module : #17 of 46 Authentication (actual: 4)
+20 дек. 2023 21:17:12,211  INFO StartLogger - Initializing main logic for module : #18 of 46 Schedule (actual: 44)
+20 дек. 2023 21:17:12,455  INFO StartLogger - Initializing main logic for module : #19 of 46 Excel (actual: 24)
+20 дек. 2023 21:17:12,961  INFO StartLogger - Initializing main logic for module : #20 of 46 Document (actual: 19)
+20 дек. 2023 21:17:12,967  INFO StartLogger - Initializing main logic for module : #21 of 46 ProcessMonitor (actual: 20)
+20 дек. 2023 21:17:12,977  INFO StartLogger - Initializing main logic for module : #22 of 46 Historizable (actual: 22)
+20 дек. 2023 21:17:12,978  INFO StartLogger - Initializing main logic for module : #23 of 46 Reflection (actual: 5)
+20 дек. 2023 21:17:13,309  INFO StartLogger - Initializing main logic for module : #24 of 46 SystemEvents (actual: 6)
+20 дек. 2023 21:17:13,309  INFO StartLogger - Initializing main logic for module : #25 of 46 Messenger (actual: 33)
+20 дек. 2023 21:17:13,316  INFO StartLogger - Initializing main logic for module : #26 of 46 Icon (actual: 45)
+20 дек. 2023 21:17:13,337  INFO StartLogger - WARNING! Now default change event action will work in new session /utils/messengers/Messenger.lsf(77:30) property:Messenger.synchronizeChatsAction[Messenger.Account] 'Синхронизировать аккаунт' [Messenger(65:70)]
+20 дек. 2023 21:17:13,347  INFO StartLogger - Initializing main logic for module : #27 of 46 Telegram (actual: 34)
+20 дек. 2023 21:17:13,368  INFO StartLogger - Initializing main logic for module : #28 of 46 Skype (actual: 40)
+20 дек. 2023 21:17:13,378  INFO StartLogger - Initializing main logic for module : #29 of 46 Slack (actual: 42)
+20 дек. 2023 21:17:13,546  INFO StartLogger - Initializing main logic for module : #30 of 46 Viber (actual: 39)
+20 дек. 2023 21:17:13,647  INFO StartLogger - Initializing main logic for module : #31 of 46 MultiSelect (actual: 32)
+20 дек. 2023 21:17:13,649  INFO StartLogger - Initializing main logic for module : #32 of 46 RabbitMQ (actual: 37)
+20 дек. 2023 21:17:13,652  INFO StartLogger - Initializing main logic for module : #33 of 46 Geo (actual: 38)
+20 дек. 2023 21:17:13,653  INFO StartLogger - Initializing main logic for module : #34 of 46 Email (actual: 9)
+20 дек. 2023 21:17:13,682  INFO StartLogger - Initializing main logic for module : #35 of 46 Word (actual: 8)
+20 дек. 2023 21:17:13,701  INFO StartLogger - Initializing main logic for module : #36 of 46 FrappeGantt (actual: 46)
+20 дек. 2023 21:17:13,704  INFO StartLogger - Initializing main logic for module : #37 of 46 JKanban (actual: 41)
+20 дек. 2023 21:17:13,705  INFO StartLogger - Initializing main logic for module : #38 of 46 Chart (actual: 29)
+20 дек. 2023 21:17:13,799  INFO StartLogger - Initializing main logic for module : #39 of 46 Security (actual: 10)
+20 дек. 2023 21:17:14,087  INFO StartLogger - Initializing main logic for module : #40 of 46 Service (actual: 11)
+20 дек. 2023 21:17:14,257  INFO StartLogger - Initializing main logic for module : #41 of 46 Chat (actual: 27)
+20 дек. 2023 21:17:14,259  INFO StartLogger - Initializing main logic for module : #42 of 46 Scheduler (actual: 12)
+20 дек. 2023 21:17:14,264  INFO StartLogger - Initializing main logic for module : #43 of 46 Profiler (actual: 25)
+20 дек. 2023 21:17:14,264  INFO StartLogger - Initializing main logic for module : #44 of 46 Eval (actual: 28)
+20 дек. 2023 21:17:14,451  INFO StartLogger - Initializing main logic for module : #45 of 46 SQLUtils (actual: 21)
+20 дек. 2023 21:17:14,530  INFO StartLogger - Initializing main logic for module : #46 of 46 Backup (actual: 14)
+20 дек. 2023 21:17:14,645  INFO StartLogger - Checking for duplicate elements
+20 дек. 2023 21:17:14,646  INFO StartLogger - Finalizing groups
+20 дек. 2023 21:17:14,647  INFO StartLogger - Finalizing classes
+20 дек. 2023 21:17:14,717  INFO StartLogger - Initializing lazy properties
+20 дек. 2023 21:17:14,717  INFO StartLogger - Filling implicit cases
+20 дек. 2023 21:17:14,718  INFO StartLogger - Initializing abstract properties
+20 дек. 2023 21:17:14,720  INFO StartLogger - Finalizing abstract actions
+20 дек. 2023 21:17:14,843  INFO StartLogger - Initializing fields for data and materialized properties
+20 дек. 2023 21:17:14,843  INFO StartLogger - Checking abstract
+20 дек. 2023 21:17:14,848  INFO StartLogger - Initializing class aggr props
+20 дек. 2023 21:17:14,848  INFO StartLogger - Looking for recursions in abstract actions / properties
+20 дек. 2023 21:17:15,043  INFO StartLogger - Setup property policy
+20 дек. 2023 21:17:15,044  INFO StartLogger - Setup reset files
+20 дек. 2023 21:17:15,044  INFO StartLogger - Setup drill-down
+20 дек. 2023 21:17:15,244  INFO StartLogger - Finalizing tables
+20 дек. 2023 21:17:15,248  INFO StartLogger - Initializing indices
+20 дек. 2023 21:17:15,251  INFO StartLogger - Finalizing navigator elements
+20 дек. 2023 21:17:15,276  INFO StartLogger - Setup action policy
+20 дек. 2023 21:17:15,304  INFO StartLogger - Initializing reflection events
+20 дек. 2023 21:17:16,202 ERROR StartLogger - ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf) (host: localhost, user: postgres)
+20 дек. 2023 21:17:16,213 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:234)
+	at lsfusion.server.physics.admin.reflection.controller.init.InitReflectionEventsTask.run(InitReflectionEventsTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:475)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:554)
+Caused by: org.postgresql.util.PSQLException: ВАЖНО: пользователь "postgres" не прошёл проверку подлинности (по паролю) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:520)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:141)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+	at org.postgresql.Driver.makeConnection(Driver.java:458)
+	at org.postgresql.Driver.connect(Driver.java:260)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.getConnection(PostgreDataAdapter.java:75)
+	at lsfusion.server.data.sql.adapter.PostgreDataAdapter.ensureDB(PostgreDataAdapter.java:92)
+	at lsfusion.server.data.sql.adapter.DataAdapter.ensure(DataAdapter.java:68)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.lambda$4(DBManager.java:215)
+	at lsfusion.server.physics.exec.db.table.ImplementTable.reflectionStatProps(ImplementTable.java:509)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.initReflectionEvents(DBManager.java:212)
+	... 8 more
+20 дек. 2023 21:17:16,216  INFO StartLogger - Error starting server, server will be stopped.
+20 дек. 2023 21:17:16,217  INFO StartLogger - Server is stopping...
+20 дек. 2023 21:17:16,217  INFO StartLogger - Logics instance is stopping...
+20 дек. 2023 21:17:16,217  INFO StartLogger - Logics instance has stopped...
+20 дек. 2023 21:17:16,219  INFO StartLogger - Server has stopped...

@@ -1,0 +1,138 @@
+MODULE HockeyStats;
+
+REQUIRE System, Utils;
+
+CLASS Team 'Team';
+
+players 'Players' = DATA Players (Team);
+name 'Team name' = DATA STRING[30] (Team) IN base;
+
+CLASS Game 'Game';
+
+date 'Date' = DATA DATE (Game);
+hostTeam = DATA Team (Game);
+guestTeam = DATA Team (Game);
+hostTeamName 'Host' (Game game) = name(hostTeam(game));
+guestTeamName 'Guest' (Game game) = name(guestTeam(game));
+
+CONSTRAINT hostTeam(Game team) = guestTeam(team) CHECKED BY hostTeam, guestTeam MESSAGE 'Host and guest teams must be different';
+
+hostGoals 'H goals' = DATA INTEGER (Game);
+guestGoals 'G goals' = DATA INTEGER (Game);
+
+CONSTRAINT hostGoals(Game game) = guestGoals(game) MESSAGE 'The game cannot end in a draw';
+
+winner(Game game) = IF hostGoals(game) > guestGoals(game)
+    THEN hostTeam(game)
+    ELSE guestTeam(game);
+
+looser(Game game) = IF hostGoals(game) > guestGoals(game)
+    THEN guestTeam(game)
+    ELSE hostTeam(game);
+
+CLASS GameResult 'G/R' {
+    win 'W', 
+    winOT 'LO', 
+    winSO 'LB'
+}
+
+resultName 'Name' (GameResult game) = staticCaption(game) IF game IS GameResult IN base;
+
+userResult = DATA GameResult (Game);
+result (Game game) = OVERRIDE userResult(game), 
+    (GameResult.win IF ((hostGoals(game) (-) guestGoals(game)) > 1 OR (guestGoals(game) (-) hostGoals(game)) > 1));
+resultName 'G/R' (Game game) = resultName(result(game));
+
+CONSTRAINT ((hostGoals(Game game) (-) guestGoals(game)) > 1 OR (hostGoals(game) (-) guestGoals(game)) < -1) AND userResult(game)
+    MESSAGE 'The result of the game is determined automatically';
+
+CONSTRAINT ((hostGoals(Game game) (-) guestGoals(game)) < 2 AND (hostGoals(game) (-) guestGoals(game)) > -2) AND NOT userResult(game)
+    MESSAGE 'Specify the result of the game';
+
+hostGamesPlayed = GROUP SUM 1 BY hostTeam(Game game);
+guestGamesPlayed = GROUP SUM 1 BY guestTeam(Game game);
+gamesPlayed 'G' (Team team) = hostGamesPlayed(team) (+) guestGamesPlayed(team);
+
+gamesWonBy(Team team, GameResult type) = OVERRIDE [GROUP SUM 1 BY winner(Game game), result(game)](team, type), 0;
+
+gamesWon 'W' (Team team) = gamesWonBy(team, GameResult.win);
+gamesWonOT 'WO' (Team team) = gamesWonBy(team, GameResult.winOT);
+gamesWonSO 'WB' (Team team) = gamesWonBy(team, GameResult.winSO);
+
+gamesLostBy(Team team, GameResult type) = OVERRIDE [GROUP SUM 1 BY looser(Game game), result(game)](team, type), 0;
+
+gamesLost 'L' (Team team) = gamesLostBy(team, GameResult.win);
+gamesLostOT 'LO' (Team team) = gamesLostBy(team, GameResult.winOT);
+gamesLostSO 'LB' (Team team) = gamesLostBy(team, GameResult.winSO);
+
+points 'Points' (Team team) = gamesWon(team) * 3 + (gamesWonSO(team) + gamesWonOT(team)) * 2 + gamesLostOT(team) + gamesLostSO(team);
+
+hostGoalsScored = GROUP SUM hostGoals(Game game) BY hostTeam(game);
+guestGoalsScored = GROUP SUM guestGoals(Game game) BY guestTeam(game);
+goalsScored 'Scored goals' (Team team) = OVERRIDE hostGoalsScored(team) (+) guestGoalsScored(team), 0 IF team IS Team;
+
+hostGoalsConceded = GROUP SUM guestGoals(Game game) BY hostTeam(game);
+guestGoalsConceded = GROUP SUM hostGoals(Game game) BY guestTeam(game);
+goalsConceded 'Conceded goals' (Team team) = OVERRIDE hostGoalsConceded(team) (+) guestGoalsConceded(team), 0 IF team IS Team;
+
+place 'Place' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesWon(team), gamesWonOT(team), gamesWonSO(team), 
+    (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
+
+CLASS Players 'Players';
+
+playerName 'Name' = DATA STRING[30] (Players) IN base;
+goals 'Goals'= DATA INTEGER (Players);
+role 'Role'= DATA Role (Players);
+team 'Team' = DATA Team (Players);
+game = DATA Game(Players);
+
+CLASS Role 'Role' {
+    defender 'defender', 
+    goalkeeper 'goalkeeper', 
+    bombardier 'bombardier'
+}
+
+roleName 'Role' (Role role) = staticCaption(role) IF role IS Role;
+
+FORM MainForm 'Score table'
+    OBJECTS game = Game
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, NEW, DELETE
+    
+    OBJECTS team = Team
+    PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO, 
+    gamesLostSO, gamesLostOT, gamesLost, goalsScored, goalsConceded, points, NEW, DELETE
+    ORDERS place(team)
+    
+    OBJECTS player = Players
+    PROPERTIES(player) playerName, goals, NEW ,DELETE
+    PROPERTIES team 'Team' = name(team(player))
+    PROPERTIES roleName  'Role' = roleName(role(player))
+    FILTERS team == team(player)
+    
+    OBJECTS p = (p = Players)
+    PROPERTIES(p) READONLY playerName, goals
+    ORDERS goals(p)
+;
+
+DESIGN MainForm {
+    NEW GameList FIRST {
+        fill = 1;
+        MOVE BOX(game);
+        NEW GameDitales {
+            fill = 2;
+            MOVE BOX(team) {
+                caption = 'Team';
+            }
+            MOVE BOX(player) {
+                caption = 'Membership';
+            }
+            MOVE BOX(p) {
+                caption = 'Bombardiers scores';
+            }
+        }
+    }
+}
+
+NAVIGATOR {
+    NEW MainForm FIRST;
+}
